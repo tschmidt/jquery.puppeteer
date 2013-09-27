@@ -96,7 +96,7 @@ If, however, you would like to have more control over each element then you can 
 
 ## Examples
 
-Basic Example #1
+[Basic Example #1](http://schmidt-happens.com/jquery.puppeteer/example1.html)
 
 Basic Example #2
 
