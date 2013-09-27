@@ -1,6 +1,6 @@
 # jQuery Puppeteer
 
-Puppeteer is a simple solution to help you direct element on your page like puppets on string.
+Puppeteer is a simple solution to help you direct elements on your page like puppets on string.
 
 ## Motivation
 
@@ -15,6 +15,10 @@ to create one myself. The inspiration for this plugin came from [several](http:/
 I tried to make this plugin as simple and user friendly as possible. really, all it does
 it to apply or remove css classes that will perform the animations. This makes it great
 for front end developers because they only need to deal with HTML and CSS.
+
+## Requirements
+
+[jQuery](http://jquery.com)
 
 ## Usage
 
