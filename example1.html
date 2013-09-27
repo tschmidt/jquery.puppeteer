@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+		<meta charset='utf-8'>
+		<title>jQuery Puppeteer : Example One</title>
+		<link rel="stylesheet" href="stylesheets/example1/site.css" type="text/css">
+		
+		<script src="javascripts/jquery.min.js"></script>
+		<script src="javascripts/jquery.puppeteer.min.js"></script>
+	</head>
+	<body>
+		<section class='jumbotron'>
+			<h1>jQuery Puppeteer : Example One</h1>
+			<p>
+				This is a very simple example of using the $.fn.puppeteer plugin. This example
+				was blatantly ripped off from this <a href='http://tympanus.net/codrops/2013/07/18/on-scroll-effect-layout/'>Codrops Blueprint article</a> which was also
+				partly responsible for this plugins creation.
+			</p>
+		</section>
+		
+		<div id='cbp-so-scroller' class='cbp-so-scroller'>
+			<section class='cbp-so-section puppet'>
+				<article class='cbp-so-side cbp-so-side-left'>
+					<h2>Lemon drops</h2>
+					<p>I will obey your orders. I will serve this ship as First Officer. And in an attack against the Enterprise, I will die with this crew. But I will not break my oath of loyalty to Starfleet. Our neural pathways have become accustomed to your sensory input patterns. I recommend you don't fire until you're within 40,000 kilometers.</p>
+				</article>
+				<figure class='cbp-so-side cbp-so-side-right'>
+					<img src='images/1.png' alt-'img01' />
+				</figure>
+			</section>
+			
+			<section class='cbp-so-section puppet'>
+				<figure class='cbp-so-side cbp-so-side-left'>
+					<img src='images/2.png' alt-'img02' />
+				</figure>
+				<article class='cbp-so-side cbp-so-side-right'>
+					<h2>Plum caramel</h2>
+					<p>I will obey your orders. I will serve this ship as First Officer. And in an attack against the Enterprise, I will die with this crew. But I will not break my oath of loyalty to Starfleet. Our neural pathways have become accustomed to your sensory input patterns. I recommend you don't fire until you're within 40,000 kilometers.</p>
+				</article>
+			</section>
+			
+			<section class='cbp-so-section puppet'>
+				<article class='cbp-so-side cbp-so-side-left'>
+					<h2>Marzipan gingerbread</h2>
+					<p>I will obey your orders. I will serve this ship as First Officer. And in an attack against the Enterprise, I will die with this crew. But I will not break my oath of loyalty to Starfleet. Our neural pathways have become accustomed to your sensory input patterns. I recommend you don't fire until you're within 40,000 kilometers.</p>
+				</article>
+				<figure class='cbp-so-side cbp-so-side-right'>
+					<img src='images/3.png' alt-'img03' />
+				</figure>
+			</section>
+			
+			<section class='cbp-so-section puppet'>
+				<figure class='cbp-so-side cbp-so-side-left'>
+					<img src='images/4.png' alt-'img04' />
+				</figure>
+				<article class='cbp-so-side cbp-so-side-right'>
+					<h2>Carrot cake</h2>
+					<p>I will obey your orders. I will serve this ship as First Officer. And in an attack against the Enterprise, I will die with this crew. But I will not break my oath of loyalty to Starfleet. Our neural pathways have become accustomed to your sensory input patterns. I recommend you don't fire until you're within 40,000 kilometers.</p>
+				</article>
+			</section>
+			
+			<section class='cbp-so-section puppet'>
+				<article class='cbp-so-side cbp-so-side-left'>
+					<h2>Pudding lollipop</h2>
+					<p>I will obey your orders. I will serve this ship as First Officer. And in an attack against the Enterprise, I will die with this crew. But I will not break my oath of loyalty to Starfleet. Our neural pathways have become accustomed to your sensory input patterns. I recommend you don't fire until you're within 40,000 kilometers.</p>
+				</article>
+				<figure class='cbp-so-side cbp-so-side-right'>
+					<img src='images/5.png' alt-'img05' />
+				</figure>
+			</section>
+			
+			<section class='cbp-so-section puppet'>
+				<figure class='cbp-so-side cbp-so-side-left'>
+					<img src='images/6.png' alt-'img06' />
+				</figure>
+				<article class='cbp-so-side cbp-so-side-right'>
+					<h2>Soufflé bonbon</h2>
+					<p>I will obey your orders. I will serve this ship as First Officer. And in an attack against the Enterprise, I will die with this crew. But I will not break my oath of loyalty to Starfleet. Our neural pathways have become accustomed to your sensory input patterns. I recommend you don't fire until you're within 40,000 kilometers.</p>
+				</article>
+			</section>
+		</div>
+		
+		<script type="text/javascript" charset="utf-8">
+			/* ================================================================
+			 * The most basic way to use the $.fn.puppeteer() plugin
+			 * ================================================================ */
+			
+			$('.puppet').puppeteer({
+				setupClass 			: 'cbp-so-init'
+			, actionClass			: 'cbp-so-animate'
+			, persistOnScreen	: true
+			})
+		</script>
+	</body>
+</html>
