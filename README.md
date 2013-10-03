@@ -87,7 +87,7 @@ $('.puppet').puppeteer({
 If, however, you would like to have more control over each element then you can use data attributes.
 
 ```
-&lt;div class='puppet' 
+<div class='puppet' 
       data-setup-class='get-ready' 
       data-action-class='lights-camera-action' 
       data-persist-on-screen='true'
