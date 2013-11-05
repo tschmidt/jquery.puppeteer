@@ -22,7 +22,7 @@ for front end developers because they only need to deal with HTML and CSS.
 
 ## Usage
 
-Add a common class to any element that you would like to control. I personally user the class ```puppet```. This makes it really simple to target those elmeents with a call to the $.fn.puppeteer method like so
+Add a common class to any element that you would like to control. I personally use the class ```puppet```. This makes it really simple to target those elmeents with a call to the $.fn.puppeteer method like so
 
 ```
 $('.puppet').puppeteer()
