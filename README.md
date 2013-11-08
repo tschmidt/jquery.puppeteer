@@ -98,6 +98,6 @@ If, however, you would like to have more control over each element then you can 
 
 [Basic Example #1](http://schmidt-happens.com/jquery.puppeteer/example1.html)
 
-Basic Example #2
+[Basic Example #2](http://schmidt-happens.com/jquery.puppeteer/example2.html)
 
 Advanced Example
