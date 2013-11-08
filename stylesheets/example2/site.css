@@ -1,0 +1,128 @@
+section {
+	padding: 6em;
+}
+
+body > section:first-child header {
+	padding: 6em;
+	text-align: center;
+}
+
+body > section:first-child header h1 {
+	font-size: 4.8em;
+	line-height: 1.75;
+}
+
+body > section:first-child header h2 {
+	font-style: italic;
+}
+
+/* .puppet-chart-example */
+
+.puppet-chart-example h1 {
+	color: #9e9e9e;
+	font-size: 2em;
+	margin-bottom: 1em;
+}
+
+.puppet-chart-example h1 span {
+	color: #0099ff;
+}
+
+.puppet-chart-example .chart {
+	height: 300px;
+	margin: 0 auto;
+	position: relative;
+	width: 90%;
+}
+
+.puppet-chart-example .chart .chart-col {
+	float: left;
+	width: 14%;
+}
+
+.puppet-chart-example .chart .chart-bar {
+	height: 250px;
+	padding: 0 5%;
+	position: relative;
+	width: 90%;
+}
+
+.puppet-chart-example .chart .chart-bar-fill {
+	background: #c0c0c0;
+	border-radius: 3px 3px 0 0;
+	bottom: 0;
+	height: 0;
+	position: absolute;
+	width: 100%;
+	
+	transition: height .4s ease-out;
+}
+
+.puppet-chart-example .chart .chart-label {
+	height: 50px;
+	position: relative;
+	top: 50px;
+	width: 200%;
+	
+	-webkit-transform: rotate(40deg);
+	-moz-transform: rotate(40deg);
+	-ms-transform: rotate(40deg);
+	-o-transform: rotate(40deg);
+	transform: rotate(40deg);
+}
+
+.filler {
+	background-color: #e0e0e0;
+}
+
+.filler h1 {
+	text-align: center;
+}
+
+
+/* Puppet animation classes */
+
+.puppet-chart-example .explanation p {
+	opacity: 0;
+	transition: opacity 1.2s ease-out;
+}
+
+.puppet-chart-example .explanation p.on {
+	opacity: 1;
+}
+
+
+.puppet-chart-example .chart.on .chart-col:nth-child(1) .chart-bar-fill {
+	background-color: red;
+	height: 10%;
+}
+
+.puppet-chart-example .chart.on .chart-col:nth-child(2) .chart-bar-fill {
+	background-color: orange;
+	height: 20%;
+	transition-delay: .2s;
+}
+
+.puppet-chart-example .chart.on .chart-col:nth-child(3) .chart-bar-fill {
+	background-color: yellow;
+	height: 30%;
+	transition-delay: .4s;
+}
+
+.puppet-chart-example .chart.on .chart-col:nth-child(4) .chart-bar-fill {
+	background-color: green;
+	height: 40%;
+	transition-delay: .6s;
+}
+
+.puppet-chart-example .chart.on .chart-col:nth-child(5) .chart-bar-fill {
+	background-color: blue;
+	height: 50%;
+	transition-delay: .8s;
+}
+
+.puppet-chart-example .chart.on .chart-col:nth-child(6) .chart-bar-fill {
+	background-color: violet;
+	height: 60%;
+	transition-delay: 1s;
+}

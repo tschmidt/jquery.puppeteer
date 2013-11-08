@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+		<meta charset='utf-8'>
+		<title>jQuery Puppeteer : Example Two</title>
+		
+		<link rel="stylesheet" href="stylesheets/bootstrap.min.css" type="text/css">
+		<link rel="stylesheet" href="stylesheets/example2/site.css" type="text/css">
+		
+		<script src="javascripts/jquery.min.js"></script>
+		<script src="javascripts/jquery.puppeteer.min.js"></script>
+	</head>
+	<body>
+		<section>
+			<header>
+				<h1>jQuery Puppeteer</h1>
+				<h2>It's Scroll Magic</h2>
+			</header>
+		</section>
+		
+		<section class='filler'>
+			<header>
+				<h1>I'm a Filler Section</h1>
+			</header>
+			
+			<p>
+				Marfa chillwave banjo gastropub, exercitation elit locavore sriracha quis ennui umami Brooklyn. Velit typewriter mustache blog actually, skateboard nisi disrupt biodiesel food truck try-hard 90's deep v trust fund four loko. Shabby chic fap nihil, art party mlkshk locavore nulla Blue Bottle Intelligentsia. Exercitation try-hard mixtape, banjo drinking vinegar id Portland duis gastropub Pitchfork bicycle rights. American Apparel esse nisi single-origin coffee farm-to-table. Bushwick sed 8-bit craft beer kitsch mustache. Retro Truffaut Odd Future meh gastropub, salvia vegan Portland cliche beard McSweeney's irony nisi Brooklyn VHS.
+			</p>
+			<p>
+				Readymade Helvetica Tonx cardigan gastropub, sint vero photo booth actually paleo narwhal hoodie ethical lo-fi hashtag. Hashtag culpa Pinterest DIY chia. Selfies velit nihil aute exercitation, Austin nostrud excepteur. Cred ennui fugiat assumenda stumptown minim, food truck esse try-hard. Dolor accusamus sint, cliche artisan deep v minim mlkshk eiusmod cupidatat ex shabby chic kale chips direct trade. Lo-fi wolf McSweeney's Helvetica. Est McSweeney's exercitation commodo chia Helvetica freegan YOLO.
+			</p>
+		</section>
+		
+		<section class='puppet-chart-example'>
+			<div class='row'>
+				<div class='col-sm-6 explanation'>
+					<header>
+						<h1>ZOMG! <span>Look at that!!!1!</span></h1>
+					</header>
+					<p class='puppet'>
+						Selvage Tumblr leggings yr plaid, Cosby sweater ethnic master cleanse wolf 
+						salvia. Biodiesel banjo literally, shabby chic single-origin coffee 
+						church-key typewriter keytar chambray meggings master cleanse disrupt kale 
+						chips. Before they sold out narwhal put a bird on it Tumblr, Carles squid 
+						lomo McSweeney's cred biodiesel bespoke slow-carb.
+					</p>
+					
+					<p class='puppet'>
+						Godard dolor kogi mixtape. Fashion axe typewriter before they sold out, 
+						disrupt semiotics deserunt Bushwick authentic fanny pack pork belly 
+						biodiesel banh mi asymmetrical. Marfa hoodie meggings raw denim ad, 
+						semiotics yr readymade slow-carb paleo trust fund.
+					</p>
+				</div>
+				
+				<div class='col-sm-6'>
+					<ul class='puppet chart list-unstyled' data-on-screen-percentage='0.8'>
+						<li class='chart-col'>
+							<div class='chart-bar'>
+								<div class='chart-bar-fill'></div>
+							</div>
+							<p class='chart-label'>Red</p>
+						</li>
+						
+						<li class='chart-col'>
+							<div class='chart-bar'>
+								<div class='chart-bar-fill'></div>
+							</div>
+							<p class='chart-label'>Orange</p>
+						</li>
+						
+						<li class='chart-col'>
+							<div class='chart-bar'>
+								<div class='chart-bar-fill'></div>
+							</div>
+							<p class='chart-label'>Yellow</p>
+						</li>
+						
+						<li class='chart-col'>
+							<div class='chart-bar'>
+								<div class='chart-bar-fill'></div>
+							</div>
+							<p class='chart-label'>Green</p>
+						</li>
+						
+						<li class='chart-col'>
+							<div class='chart-bar'>
+								<div class='chart-bar-fill'></div>
+							</div>
+							<p class='chart-label'>Blue</p>
+						</li>
+						
+						<li class='chart-col'>
+							<div class='chart-bar'>
+								<div class='chart-bar-fill'></div>
+							</div>
+							<p class='chart-label'>Violet</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		
+		<script>
+			$(".puppet").puppeteer({
+				actionClass: 'on'
+			, persistOnScreen: false
+			})
+		</script>
+	</body>
+</html>
