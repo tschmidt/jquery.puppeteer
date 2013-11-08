@@ -22,7 +22,7 @@ for front end developers because they only need to deal with HTML and CSS.
 
 ## Usage
 
-Add a common class to any element that you would like to control. I personally user the class ```puppet```. This makes it really simple to target those elmeents with a call to the $.fn.puppeteer method like so
+Add a common class to any element that you would like to control. I personally use the class ```puppet```. This makes it really simple to target those elements with a call to the $.fn.puppeteer method like so
 
 ```
 $('.puppet').puppeteer()
@@ -35,7 +35,7 @@ Okay, not really. There is a little more you will need to do. Each puppet elemen
 1. The setup class
 2. The action class
 3. Its persistance on screen after the action class is applied
-4. How much of the element should be on screen before action class is applied
+4. How much of the element should be on screen before the action class is applied
 
 ### The Setup Class
 
@@ -69,7 +69,7 @@ You have 2 options here, true or false. If you set persistance to true, the elem
 
 Because applying the action class as soon as a single pixel of the element scrolls into the viewport doesn't make a lot of sense, you can specify the percentage of the element that should be in the viewport before the action class is applied. This can be any number between 0 (as soon as it appears) to 1 (the bottom of the element is above the bottome of the viewport).
 
-If you use a fraction (0.2) it will be converted to a percentage. ```0.2``` also hapens to be the default, meaning about 20% of the element will need to be in the viewport before the action class is applied.
+If you use a fraction (0.2) it will be converted to a percentage. ```0.2``` also happens to be the default, meaning about 20% of the element will need to be in the viewport before the action class is applied.
 
 ### Ways to Apply Your Settings
 
@@ -87,7 +87,7 @@ $('.puppet').puppeteer({
 If, however, you would like to have more control over each element then you can use data attributes.
 
 ```
-&lt;div class='puppet' 
+<div class='puppet' 
       data-setup-class='get-ready' 
       data-action-class='lights-camera-action' 
       data-persist-on-screen='true'
